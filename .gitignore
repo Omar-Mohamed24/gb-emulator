@@ -1,0 +1,37 @@
+# Build output
+build/
+out/
+cmake-build-*/
+CMakeUserPresets.json
+compile_commands.json
+
+# Compiled files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.pdb
+*.ilk
+
+# Save files written next to ROMs
+*.sav
+
+# ROMs: only the test ROMs credited in the README are committed
+roms/*.gb
+roms/*.gbc
+!roms/dmg-acid2.gb
+
+# Editors and IDEs
+.vs/
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
